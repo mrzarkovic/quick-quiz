@@ -91,6 +91,9 @@ class App extends Component {
     render () {
         return (
             <div className="container">
+                <h1>Quick Quiz</h1>
+                <p class="lead">A simple quiz application written in ReactJS</p>
+                <hr/>
                 <QuestionList {...this.state} />
             </div>
         );
